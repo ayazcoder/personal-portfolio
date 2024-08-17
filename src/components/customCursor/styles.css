@@ -1,0 +1,21 @@
+/* Remove this part entirely */
+.cursor-clicked {
+  animation: cursorClick 0.4s forwards;
+}
+
+.follower-clicked {
+  animation: followerClick 0.4s forwards;
+}
+
+@keyframes cursorClick {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
