@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Portfolio = () =>{
+export const Portfolio = () => {
   return (
     <div className="h-screen flex flex-col items-center w-full gap-5 overflow-y-scroll scroll-smooth">
       <div className="w-full flex flex-col justify-between sm:flex-row mt-24">
@@ -12,8 +12,9 @@ export const Portfolio = () =>{
           <p className="font-bold underline">pagination</p>
         </div>
       </div>
-
-    
+      <p className="text-[50px] text-dark font-bold mt-40">
+        Coming Soon...
+      </p>
     </div>
   );
 };

@@ -4,10 +4,10 @@ import { About } from './components/about/About'
 import { Blog } from './components/blog/Blog'
 import { Contact } from './components/contact/Contact'
 import { Home } from './components/home/Home'
-import { Portfolio } from './components/portfolio/portfolio'
 import { Services } from './components/services/Services'
 import Layout from './layout/Layout'
 import { CustomCursor } from './components/customCursor/CustomCursor'
+import { Portfolio } from './components/portfolio/Portfolio.jsx'
 
 function App() {
   return (
